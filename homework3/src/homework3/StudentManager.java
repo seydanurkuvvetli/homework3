@@ -2,13 +2,13 @@ package homework3;
 
 public class StudentManager {
 	public void add(User user) {
-		System.out.println("öðrenci bilgileri"+user.getFirstName() + user.getLastName() + user.getId() );
+		System.out.println("Ã¶grenci bilgileri"+user.getFirstName() + user.getLastName() + user.getId() );
 	}
 	public void update (User user) {
-		System.out.println("öðrenci bilgileri güncellendi");
+		System.out.println("Ã¶grenci bilgileri gÃ¼ncellendi");
 	}
 	public void delete(User user) {
-		System.out.println("öðrenci silindi");
+		System.out.println("Ã¶grenci silindi");
 		
 	}
 
