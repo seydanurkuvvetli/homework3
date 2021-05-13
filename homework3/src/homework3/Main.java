@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Student student1 = new Student();
-		student1.setFirstName("şeydanur");
+		student1.setFirstName("ÅŸeydanur");
 		student1.setLastName("kuvvetli");
 		student1.setId(1);
 		student1.setPassword("1234");
@@ -12,7 +12,7 @@ public class Main {
 		
 		Instructor instructor1 = new Instructor();
 		instructor1.setFirstName("Engin");
-		instructor1.setLastName("Demiroğ");
+		instructor1.setLastName("DemiroÄŸ");
 		
 		
 		StudentManager studentManager = new StudentManager();
@@ -20,8 +20,8 @@ public class Main {
 		studentManager.update(student1);
 		studentManager.delete(student1);
 		
-		InstructorManager ınstructorManager = new InstructorManager();
-		ınstructorManager.add(instructor1);
+		InstructorManager Ä±nstructorManager = new InstructorManager();
+		Ä±nstructorManager.add(instructor1);
 		
 	}
 
